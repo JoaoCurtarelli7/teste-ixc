@@ -1,0 +1,43 @@
+{
+  "name": "teste-ixc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint --fix .",
+    "test": "vitest",
+    "preview": "vite preview",
+    "start": "vite",
+    "server": "json-server --watch db.json --port 3000"
+  },
+  "dependencies": {
+    "antd": "^5.24.5",
+    "moment": "^2.30.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.4.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@vitest/coverage-v8": "^3.0.9",
+    "@rocketseat/eslint-config": "^2.2.2",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "globals": "^15.15.0",
+    "jest": "^29.7.0",
+    "jsdom": "^26.0.0",
+    "json-server": "^1.0.0-beta.3",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vitest": "^3.0.9"
+  }
+}
