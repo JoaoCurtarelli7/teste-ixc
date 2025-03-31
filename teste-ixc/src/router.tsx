@@ -1,15 +1,14 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Transactions from "./pages/Transactions";
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Transactions from './pages/Transactions'
 
 const AppRoutes = () => {
   return (
     <BrowserRouter key="/">
-      <Routes >
+      <Routes>
         <Route path="/" element={<Transactions />} />
       </Routes>
     </BrowserRouter>
-  );
-};
+  )
+}
 
-export default AppRoutes;
+export default AppRoutes
